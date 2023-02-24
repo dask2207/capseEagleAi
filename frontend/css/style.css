@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+
+html{
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    /* background-color: black; */
+    padding: 10px;
+}
+nav .logo img{
+    height: 64px;
+    width: 100px;
+}
+nav .menu .ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    /* background-color: yellow; */
+}
+nav .button{
+    padding: 10px;
+}
+nav .button button{
+    width: 120px;
+}
+
+/* Carousel */
+.carousel{
+    height: 80vh;
+}
+
+.carousel-item img{
+    height: 80vh;
+    width: 100vw;
+}
+
+.carousel-item .carousel-caption{
+    position: absolute;
+    bottom: 50%;
+    transform: translate(0%,50%);
+}
+
+.carousel-item .carousel-caption h5{
+    font-size: 48px;
+}
+
+.carousel-item .carousel-caption p{
+    font-size: 16px;
+}
