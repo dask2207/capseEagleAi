@@ -46,8 +46,32 @@ nav .button button{
 }
 
 /* Carousel */
-.carousel{
+.top-carousel .carousel{
     height: 80vh;
+}
+
+.top-carousel .carousel-inner .carousel-item:nth-child(1){
+    background-image: url('../images/carousel/carousel-1.jpg');
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-carousel .carousel-inner .carousel-item:nth-child(2){
+    background-image: url('../images/carousel/carousel-2.jpg');
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-carousel .carousel-inner .carousel-item:nth-child(3){
+    background-image: url('../images/carousel/carousel-3.jpg');
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
 }
 
 .carousel-item img{
@@ -67,4 +91,48 @@ nav .button button{
 
 .carousel-item .carousel-caption p{
     font-size: 16px;
+}
+
+.tools h2{
+    font-size: 48px;
+}
+
+.tools .para{
+    font-size: 20px;
+    padding: 0px 250px;
+}
+
+.favourite h2{
+    font-size: 48px;
+}
+
+.favourite  .para{
+    font-size: 20px;
+    padding: 0px 250px;
+}
+
+.companies h2{
+    font-size: 48px;
+}
+
+.companies  .para{
+    font-size: 20px;
+    padding: 0px 250px;
+}
+
+.companies .carousel-item img{
+    height: 12vh;
+    width: 24%;
+    /* border: #000 1px solid; */
+}
+
+.companies .carouselExampleControls{
+    height: 12vh;
+    background-color: #000;
+}
+
+.companies .carouselExampleControls .carousel-item{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
 }
