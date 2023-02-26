@@ -35,4 +35,8 @@
     .companies #carouselExampleControls .carousel-item img{
         padding: 0px!important;
     }
+    .companies .carousel-item img{
+        height: 12vh;
+        width: 48%!important;
+    }
 }

@@ -120,16 +120,9 @@ nav .button button{
 .companies .carousel-item img{
     height: 12vh;
     width: 24%;
-    /* border: #000 1px solid; */
 }
 
 .companies .carouselExampleControls{
     height: 12vh;
     background-color: #000;
 }
-
-/* .companies .carouselExampleControls .carousel-item{
-    display: inline-block;
-    align-items: center;
-    justify-content: space-between;
-} */
