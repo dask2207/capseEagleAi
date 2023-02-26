@@ -99,7 +99,6 @@ nav .button button{
 
 .tools .para{
     font-size: 20px;
-    padding: 0px 250px;
 }
 
 .favourite h2{
@@ -108,7 +107,6 @@ nav .button button{
 
 .favourite  .para{
     font-size: 20px;
-    padding: 0px 250px;
 }
 
 .companies h2{
@@ -117,7 +115,6 @@ nav .button button{
 
 .companies  .para{
     font-size: 20px;
-    padding: 0px 250px;
 }
 
 .companies .carousel-item img{
@@ -131,8 +128,8 @@ nav .button button{
     background-color: #000;
 }
 
-.companies .carouselExampleControls .carousel-item{
+/* .companies .carouselExampleControls .carousel-item{
     display: inline-block;
     align-items: center;
     justify-content: space-between;
-}
+} */

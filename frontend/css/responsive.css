@@ -14,6 +14,12 @@
 }
 
 @media(max-width:576px){
+    html{
+        font-size: 0.5rem;
+    }
+    h2{
+        font-size: 1.5rem!important;
+    }
     nav .menu .ul {
         display: flex;
         flex-direction: column;
@@ -25,5 +31,8 @@
     }
     .card{
       Width:100%!important;
+    }
+    .companies #carouselExampleControls .carousel-item img{
+        padding: 0px!important;
     }
 }
