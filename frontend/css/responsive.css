@@ -24,6 +24,30 @@
         display: flex;
         flex-direction: column;
     }
+    
+.top-carousel .carousel-inner .carousel-item:nth-child(1){
+    background-image: url('../images/carousel/carousel-1.jpg');
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-carousel .carousel-inner .carousel-item:nth-child(2){
+    background-image: url('../images/carousel/carousel-2.jpg');
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-carousel .carousel-inner .carousel-item:nth-child(3){
+    background-image: url('../images/carousel/carousel-3.jpg');
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
     nav .button{
         display: flex;
         justify-content: center;
